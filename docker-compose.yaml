@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  pythonapp:
+    build: .
+    volumes:
+      - ./data:/app
+    restart: always
